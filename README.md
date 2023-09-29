@@ -135,8 +135,6 @@ Users enter their username and password to obtain access token which allows them
 </p>
 
 
-# NestJS, CQRS, Typescript, PostgreSQL, Docker, Serverless Framework, AWS Lambda, RDS, and CloudFormation
-
 ## Description
 Basic NestJS application using CQRS which runs as local app, local cloud with Lambda using Serverless Framework and also connects to AWS RDS. 
 
@@ -161,7 +159,7 @@ CQRS design pattern in DDD with [Nest](https://github.com/nestjs/nest), PostgreS
 
 <!-- =================================================================================================================== -->
 
-## 5. Multi-region serverless architecture
+# 5. Multi-Region Serverless Architecture
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="150" alt="Nest" /></a>
