@@ -1,6 +1,3 @@
-[submodule "cdk-codepipeline"]
-	path = cdk-codepipeline
-	url = https://github.com/afallahi/cdk-codepipeline
 [submodule "node-sls"]
 	path = node-sls
 	url = https://github.com/afallahi/node-sls
