@@ -1,4 +1,0 @@
-[submodule "fs-jwt"]
-	path = fs-jwt
-	url = https://github.com/afallahi/fs-jwt
-	branch = master
