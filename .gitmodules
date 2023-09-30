@@ -13,3 +13,6 @@
 [submodule "nest-ddb-mr"]
 	path = nest-ddb-mr
 	url = https://github.com/afallahi/nest-ddb-mr
+[submodule "cdk-codepipeline"]
+	path = cdk-codepipeline
+	url = https://github.com/afallahi/cdk-codepipeline
