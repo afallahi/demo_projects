@@ -37,6 +37,16 @@
 
 </p>
 
+## Architecture
+
+- `Monorepo` architecture to accommodate both frontend and backend projects in the same repository.
+- Serverless, Event-driven, Function as a Service (FaaS) in the backend with AWS Lambda functions. This gives us high availability for backend services.
+- Host frontend in AWS S3. 
+
+<p align="center">
+    <img src="https://github.com/afallahi/chat-app/assets/73287428/0bba630d-cd2e-4935-946e-48d2159e3cb2">
+</p>
+
 
 ## Diagram
 
@@ -44,6 +54,13 @@
     <img src="https://github.com/afallahi/chat-app/assets/73287428/1112df12-ed6a-41d1-98f6-70cb1765fce9">
 </p>
 
+## CI/CD (TBD)
+
+We use AWS CodePipeline. A Lambda function accommodates the logic to trigger the appropriate pipeline for each project.
+
+<p align="center">
+    <img src="https://github.com/afallahi/chat-app/assets/73287428/5df8c9c5-262a-4ba6-aefd-63f768c1cb0d">
+</p>
 
 ****************************************************************************************************************************
 
