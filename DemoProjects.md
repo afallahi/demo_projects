@@ -1,5 +1,53 @@
+# 1. Chat App
 
-# 1. Serverless Application with Node.js and AWS 
+<div align="center">
+	<a><img width="150" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" alt="Node.js" title="Node.js"/></a>
+	<a><img width="150" src="https://user-images.githubusercontent.com/25181517/183896132-54262f2e-6d98-41e3-8888-e40ab5a17326.png" alt="AWS" title="AWS"/></a>
+</div>
+
+<p align="center">
+	<a><img width="60" src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png" alt="TypeScript" title="TypeScript"/></a>
+	<a><img width="60" src="https://user-images.githubusercontent.com/25181517/121401671-49102800-c959-11eb-9f6f-74d49a5e1774.png" alt="npm" title="npm"/></a>	
+    <a><img width="150" src="https://www.vectorlogo.zone/logos/serverless/serverless-ar21.svg" /></a>
+</p>
+
+## Description
+[Source Code and more detailed info](https://github.com/afallahi/chat-app)
+
+## Requirements
+
+### Functional Requirements
+- Supports one-on-one conversation between 2 users.
+- Both Client A and Client B can initiate the call to start chat with the other party. 
+- Chat service stores and relays the messages.
+- Users get acknowledgemnets on their messages.
+- Messages are plain text.
+- Chat service provides persistent storage to save the messages when the recipient is offline.
+
+### Non-Functional Requirements
+- Consistency: Chat service delivers the messages in the same order of receiving from chat parties.
+- Low Latency: User should recieve messages with low latency.
+
+## System Design
+
+### High Level Design
+
+<p align="center">
+    <img src="https://github.com/afallahi/chat-app/assets/73287428/8fea6623-525e-4f43-b6ab-b1fa02fa9adb">
+
+</p>
+
+
+## Diagram
+
+<p align="center">
+    <img src="https://github.com/afallahi/chat-app/assets/73287428/1112df12-ed6a-41d1-98f6-70cb1765fce9">
+</p>
+
+
+****************************************************************************************************************************
+
+# 2. Serverless Application with Node.js and AWS 
 
 <div align="center">
 	<a><img width="150" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" alt="Node.js" title="Node.js"/></a>
@@ -49,7 +97,7 @@
 
 ****************************************************************************************************************************
 
-# 2. CI/CD With AWS CodePipeline and CDK TypeScript
+# 3. CI/CD With AWS CodePipeline and CDK TypeScript
 
 <div align="center">
 	<a><img width="150" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" alt="Node.js" title="Node.js"/></a>
@@ -81,7 +129,7 @@
 
 ****************************************************************************************************************************
 
-# 3. Token-based Authentication
+# 4. Token-based Authentication
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="150" alt="Nest" /></a>
@@ -123,7 +171,7 @@ Users enter their username and password to obtain access token which allows them
 
 ****************************************************************************************************************************
 
-# 4. Serverless Domain Driven Design with CQRS
+# 5. Serverless Domain Driven Design with CQRS
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="150" alt="Nest" /></a>
@@ -160,7 +208,7 @@ CQRS design pattern in DDD with [Nest](https://github.com/nestjs/nest), PostgreS
 
 ****************************************************************************************************************************
 
-# 5. Multi-Region Serverless Architecture
+# 6. Multi-Region Serverless Architecture
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="150" alt="Nest" /></a>
